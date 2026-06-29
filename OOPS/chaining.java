@@ -1,12 +1,12 @@
 class chain{
-    int id;
+    long id;
     String name;
 
-    chain(){
+    chain(int i){
         System.out.println("Here chain is there");
     }
 
-    chain(int i){
+    chain(long i){
         id=i;
     }
 
@@ -17,14 +17,15 @@ class chain{
 }
 
 class c extends chain{
-    c(){ // so this will explicity call like the chain() default okk so yeah like that 
-        // so here first like the here chain is there will be printed 
+    c(int i){ // so this will explicity call like the chain() default okk so yeah like that 
+        // so here first like the here chain is there will be printed \
+        super(i);
         System.out.println("Here c and check if super there");
     }
 }
 
 public class chaining {
     public static void main(String[] args) {
-        c c1= new c();
+        c c1= new c(2);
     }
 }
