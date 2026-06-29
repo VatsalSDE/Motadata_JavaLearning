@@ -1,7 +1,20 @@
 public class test {
-    public static void main(String[] args) {
-        String[3] arr = new String[3];
 
-        System.out.println(arr[0]);
+
+static void fun() {
+        throw new RuntimeException("Runtime");
+    }
+
+    public static void main(String[] args) {
+
+        try {
+            fun();
+            System.out.println("A");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.out.println("B");
+        }
+
+        System.out.println("C");
     }
 }
