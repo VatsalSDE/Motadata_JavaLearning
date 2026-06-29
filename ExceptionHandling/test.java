@@ -7,14 +7,16 @@ static void fun() {
 
     public static void main(String[] args) {
 
-        try {
-            fun();
-            System.out.println("A");
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-            System.out.println("B");
-        }
+        // try {
+        //     fun();
+        //     System.out.println("A");
+        // } catch (Exception e) {
+        //     System.out.println(e.getMessage());
+        //     System.out.println("B");
+        // }
 
-        System.out.println("C");
+        // System.out.println("C");
+
+        
     }
 }

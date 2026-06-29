@@ -1,4 +1,3 @@
-package ExceptionHandling;
 import java.io.IOException;
 
 public class Exceptionthrowandthrows {

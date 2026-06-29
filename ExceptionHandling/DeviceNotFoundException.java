@@ -1,5 +1,3 @@
-package ExceptionHandling;
-
 public class DeviceNotFoundException extends Exception {
 
         private final String deviceId;

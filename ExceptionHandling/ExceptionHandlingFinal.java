@@ -1,6 +1,3 @@
-package ExceptionHandling;
-
-
 public class ExceptionHandlingFinal {
 
     // custom Exceptions

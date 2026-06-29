@@ -1,5 +1,3 @@
-package ExceptionHandling;
-
 public class ExceptionHandling {
 
     public static void riskyMethod(int[] arr, int index) {
