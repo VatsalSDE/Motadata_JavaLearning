@@ -1,22 +1,18 @@
 public class test {
 
+    test(){
+        System.out.println("constructor");
+    }
+    static{
+        System.out.println("static");
+    }
 
-static void fun() {
-        throw new RuntimeException("Runtime");
+    {
+        System.out.println("simple");
     }
 
     public static void main(String[] args) {
-
-        // try {
-        //     fun();
-        //     System.out.println("A");
-        // } catch (Exception e) {
-        //     System.out.println(e.getMessage());
-        //     System.out.println("B");
-        // }
-
-        // System.out.println("C");
-
-        
+        test t1 = new test();
+        // for this the instance block was printed but if i don't create the object so the instance block is not printed     
     }
 }
